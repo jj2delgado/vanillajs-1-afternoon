@@ -68,3 +68,13 @@ function play(boxID){
         window.alert("This was a CATS game, no winner.")
     }
 }
+
+//black diamond
+function resetBoard(){
+    let playerSpan = document.getElementById('player')
+    playerSpan.innerText = 'X'
+
+    for(let i = 0;i < 9;i++){
+
+    }
+}
