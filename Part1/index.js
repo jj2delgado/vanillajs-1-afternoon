@@ -73,8 +73,23 @@ function play(boxID){
 function resetBoard(){
     let playerSpan = document.getElementById('player')
     playerSpan.innerText = 'X'
+    let box1 = document.getElementById('0')
+    let box2 = document.getElementById('1')
+    let box3 = document.getElementById('2')
+    let box4 = document.getElementById('3')
+    let box5 = document.getElementById('4')
+    let box6 = document.getElementById('5')
+    let box7 = document.getElementById('6')
+    let box8 = document.getElementById('7')
+    let box9 = document.getElementById('8')
 
-    for(let i = 0;i < 9;i++){
-
-    }
+    box1.innerText = ""
+    box2.innerText = ""
+    box3.innerText = ""
+    box4.innerText = ""
+    box5.innerText = ""
+    box6.innerText = ""
+    box7.innerText = ""
+    box8.innerText = ""
+    box9.innerText = ""
 }
