@@ -26,9 +26,6 @@ function play(boxID){
     let bottomLeft = score[6]
     let bottomMiddle = score[7]
     let bottomRight = score[8]
-    console.log(score)
-    console.log(topLeft)
-    console.log(score.length)
 
         //horizontal wins
     if (topLeft !== undefined && topLeft === topMiddle && topMiddle === topRight){
